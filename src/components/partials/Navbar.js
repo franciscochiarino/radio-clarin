@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className="navbar py-5" role="navigation" aria-label="main navigation">
+    <nav className="navbar p-5" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href="#">
+        <a href="https://radioclarin.com" className="navbar-item">
           <h1 className="title">RADIO CLARIN</h1>
         </a>
 
@@ -17,18 +18,21 @@ const Navbar = () => {
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a href="#radio-container" className="navbar-item">
+          <Link to="/" className="navbar-item">
+            Inicio
+          </Link>
+          <Link to="/" className="navbar-item">
             La Radio
-          </a>
-          <a href="#schedule-container" className="navbar-item">
+          </Link>
+          <Link to="/" className="navbar-item">
             Programación
-          </a>
-          <a className="navbar-item">
+          </Link>
+          <Link to="/gardel" className="navbar-item">
             Gardel
-          </a>
-          <a className="navbar-item">
+          </Link>
+          <Link to="/" className="navbar-item">
             Contacto
-          </a>
+          </Link>
         </div>
 
         <div className="navbar-end mr-4">

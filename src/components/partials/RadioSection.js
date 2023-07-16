@@ -50,8 +50,8 @@ const RadioSection = () => {
           <p className="has-text-white">
             Clarín fue fundada el 12 de octubre de 1958 por el <strong className="has-text-white">Ing. Francisco D.
               Tourreilles</strong>.<br/>
-            Durante más de 60 años transmitimos por AM 580 y ahora lo hacemos por Internet en www.radioclarin.com, para que
-            todos los Orientales del Uruguay (y los demás hermanos rioplatenses), dondequiera el
+            Durante más de 60 años transmitimos por AM 580 y ahora lo hacemos por acá, para que
+            todos los orientales del Uruguay y los hermanos argentinos, dondequiera el
             destino los haya llevado, puedan también visitarnos y compartir nuestra devoción por nuestra música típica y
             folklórica y por lo que cantó Gardel.
           </p>

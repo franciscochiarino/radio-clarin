@@ -14,9 +14,7 @@ const Intro = () => {
             repertorio prevalecieron tangos, milongas y valses del Río de la Plata pero también, gracias a sus vivencias
             en
             Europa y EEUU, hubo en dicho repertorio un lugar para los ritmos de moda de entonces, fox-trot, pasodoble,
-            shimmy y otros.
-
-            <a href="#" className="has-text-info">Seguir leyendo</a>
+            shimmy y otros. <a href="#" className="has-text-info">Seguir leyendo</a>
           </p>
           <figure className="image">
             <img src={gardel} />

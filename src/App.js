@@ -1,13 +1,23 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import 'bulma/css/bulma.css'
+
 import Navbar from './components/partials/Navbar'
 import Home from './components/pages/Home'
-import 'bulma/css/bulma.css'
+import Gardel from './components/pages/Gardel'
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
+      <BrowserRouter>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gardel" element={<Gardel />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }
