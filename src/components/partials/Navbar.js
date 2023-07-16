@@ -9,11 +9,11 @@ const Navbar = () => {
           <h1 className="title">RADIO CLARIN</h1>
         </a>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        {/* <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </a> */}
       </div>
 
       <div id="navbarBasicExample" className="navbar-menu">
